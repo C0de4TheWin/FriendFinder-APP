@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>FriendFinder</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="myModal" class="modal">
+
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="friend-info"></div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Find your Super Friend to fight crime!</h2>
+        </div>
+        <hr>
+        <div class="row">
+
+            <div class="col-lg-12">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">
+                            <strong>Start</strong>
+                        </h3>
+                    </div>
+                    <div class="panel-body">
+                        <form role="form">
+                            <h3>My Info:</h3>
+                            <div class="form-group">
+
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="user-name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="role"> Photo </label>
+                                <input type="text" class="form-control" id="user-photo">
+                            </div>
+                            <h3>Sidekick Pairing Questions</h3>
+                            <br>
+                            <p>Answer the following questions by ranking (1-5) how much you agree with the statement </p>
+                            <br>
+                            <div class="form-group">
+                                <h4>Question 1</h4>
+                                <label for="role">You want to put a stop to crime and save humanity.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question1">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 2</h4>
+                                <label for="role">You consider Lex Luther to be a bigger threat then the Joker.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question2">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 3</h4>
+                                <label for="role">You think Robin's uniform is a little too tight.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question3">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 4</h4>
+                                <label for="role">You think Wonder Woman is really attractive.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question4">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 5</h4>
+                                <label for="role">You enjoy taking long strolls on the beach.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question5">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 6</h4>
+                                <label for="role">You would rather fight crime in Metropolis then Gotham City.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question6">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 7</h4>
+                                <label for="role">You wpuld rather fight Darkseid then Scarecrow.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question7">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 8</h4>
+                                <label for="role">You would rather be a playboy then a news reporter.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question8">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 9</h4>
+                                <label for="role">You're faster then a speeding bullet.
+                                </label>
+                                <input type="number" class="form-control" min="1" max="5" id="question9">
+                            </div>
+                            <div class="form-group">
+                                <h4>Question 10</h4>
+                                <label for="role"> You are willing to let someone else have the glory.
+
+                                </label>
+                                <br>
+                                <input type="number" class="form-control" min="1" max="5" id="question10">
+                            </div>
+
+                        </form>
+                        <br>
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-primary btn-md" id="add-btn">
+                                <span class="glyphicon glyphicon-fire"></span> Make A Super Friend!</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p>
+                    <a href="/api/friends">API Super Friends List</a> |
+                    <a href="https://github.com/C0de4TheWin/FriendFinder-APP">GitHub Repo</a>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+    
+
+    <script type="text/javascript">
+
+    //Second part of the HW I got stuck. Tried to review various activities to reference the javascript logic. Unclear how to proceed
+    
+            
+        // I need to write the code here to takes in the answers to the questions
+
+        //create an alert that notifys the user of their match
+
+    </script>
+</body>
+
+
+</html>
